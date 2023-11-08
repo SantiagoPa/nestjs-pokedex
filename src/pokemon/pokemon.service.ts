@@ -71,7 +71,6 @@ export class PokemonService {
     return { id }
   }
 
-
   private handleExceptions(error: any) {
     if (error.code === 11000) {
       throw new BadRequestException(`Pokemon exist in db ${JSON.stringify(error.keyValue)}`);

@@ -16,6 +16,9 @@ export class Pokemon extends Document {
     })
     no: number;
 
+    @Prop({})
+    url?: string;
+
 }
 
 export const PokemonSchema = SchemaFactory.createForClass( Pokemon );
