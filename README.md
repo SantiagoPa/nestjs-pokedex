@@ -20,3 +20,7 @@ yarn isntall
 ```
 docker-compose up -d
 ```
+5. restart db with seed (type: POST)
+```
+http://localhost:3000/api/v2/seed 
+```
