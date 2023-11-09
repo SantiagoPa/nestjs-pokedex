@@ -32,3 +32,13 @@ yarn start:dev
 ```
 http://localhost:3000/api/v2/seed 
 ```
+
+# BUILD
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+# RUN
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up
+```
+
