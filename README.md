@@ -33,7 +33,11 @@ yarn start:dev
 http://localhost:3000/api/v2/seed 
 ```
 
-# BUILD
+# BUILD PROD
+
+1. Create file ```.env.prod````
+2. fill fields
+3. create imagen
 ```
 docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
 ```
