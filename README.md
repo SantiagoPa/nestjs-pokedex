@@ -20,7 +20,15 @@ yarn isntall
 ```
 docker-compose up -d
 ```
-5. restart db with seed (type: POST)
+
+5. copy file __.env.example__ and rename to __.env__ and fill the variables.
+
+6. run app
+```
+yarn start:dev
+```
+
+7. restart db with seed (type: POST)
 ```
 http://localhost:3000/api/v2/seed 
 ```
